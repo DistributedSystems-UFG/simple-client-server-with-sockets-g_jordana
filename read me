@@ -1,0 +1,13 @@
+Execute o arquivo serve.py para inicializar o servidor.
+O serviço será executado em loop até que a aplicação seja morta, por conta disso você não precisa iniciar várias vezes o servidor.
+Para testar a calculadora execute o cliente.py
+Ele vai requisitar a operação via terminal, você pode entrar com os seguintes valores
+1 - Soma
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+5 – Sair
+Caso escolha a opção 5 ele encerra a calculadora
+Depois de selecionar uma operação o programa requisitará os dois números da operação.
+Com isso ele enviará a operação e os dois números para o servidor e ele responderá com o resultado.
+O resultado será impresso em tela e será aberto para uma novo calculo.
